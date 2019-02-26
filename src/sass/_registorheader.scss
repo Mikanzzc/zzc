@@ -1,0 +1,36 @@
+body{
+	font-size: 12px;
+	background: url(http://order.gjw.com/Order/v1/css/login/images/login_bg.gif);
+}
+#header{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #c5c5c5;
+}
+.logo{
+	height: 90px;
+	&>a{
+		display: block;
+		height: 53px;
+		width: 199px;
+		float: left;
+		margin-top: 20px;
+	}
+}
+.logoright{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 28px;
+	.a1{
+		color: #325e8f;
+		margin-right: 30px;
+	}
+	.a2{
+		margin-right: 30px;
+	}
+	.a3{
+		color: #cf0404;
+		margin-right: 10px;
+	}
+}

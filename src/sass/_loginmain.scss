@@ -1,0 +1,131 @@
+#main .middle{
+	margin: 0 auto;
+	width: 980px;
+	.cont{
+		margin: 70px 15px;
+	}
+}
+.clear:after{
+	height: 0;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	content: "";
+	clear: both;
+}
+.left{
+	float: left;
+}
+.forms{
+	position: relative;
+	float: left;
+	height: 437px;
+	width: 490px;
+	background: white;
+	margin-left: 20px;
+}
+.loginup{
+	width: 350px;
+	height: 299px;
+	margin: 20px 69px;
+}
+.logintitle{
+	margin-bottom: 30px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    color: #000;
+}
+.textbox{
+	position: relative;
+    margin-top: -1px;
+    width: 348px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #c5c5c5;
+	input{
+		width: 260px;
+		border: none;
+		height: 24px;
+		line-height: 24px;
+		padding-bottom: 3px;
+		background: transparent;
+		vertical-align: middle;
+		text-indent: 20px;
+	}
+}
+.logincode{
+	margin-top: 7px;
+    height: 32px;
+    line-height: 32px;
+	input{
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		text-indent: 10px;
+		border: 1px solid #c5c5c5;
+		vertical-align: middle;
+	}
+	img{
+		margin: 0 6px;
+		height: 32px;
+		width: auto;
+		vertical-align: middle;
+	}
+	a{
+		color:#325e8f;
+	}
+}
+.autodenglu{
+	height: 54px;
+    line-height: 54px;
+    color: #999;
+	.dengluleft{
+		float: left;
+	}
+	a{
+		float: right;
+		color: #999;
+	}
+}
+#denglu{
+	display: block;
+    width: 348px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #dc0014;
+    background: #fe0a2e;
+}
+.logindown{
+	margin: 10px auto;
+    width: 350px;
+}
+.qq,.zhifubao,.wechat{
+	display: inline-block;
+	margin-top: 10px;
+    margin-right: 20px;
+	width: 38px;
+    height: 38px;
+	background: url(http://order.gjw.com/Order/v1/css/login/images/qq.png);
+}
+.zhifubao{
+	background: url(http://order.gjw.com/Order/v1/css/login/images/zfb.png);
+}
+.wechat{
+	background: url(http://order.gjw.com/Order/v1/css/login/images/ico38.png);
+}
+.makenew{
+	position: absolute;
+    display: block;
+    right: -1px;
+    bottom: -38px;
+    width: 113px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    background: #ff0421;
+}

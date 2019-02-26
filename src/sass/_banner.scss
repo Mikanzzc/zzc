@@ -1,0 +1,59 @@
+@charset "UTF-8";
+#banner{
+	width: 100%;
+	height: 516px;
+	position: relative;
+	ol{
+		position: absolute;
+		bottom: 55px;
+		left: 700px;
+		z-index: 999999;
+	}
+	em{
+		position: absolute;
+		color: white;
+		height: 50px;
+		width: 50px;
+		z-index: 9999999;
+		font-size: 50px;
+		top: 235px;
+		display: none;
+	}
+	.left{
+		left: 350px;
+	}
+	.right{
+		right: 350px;
+	}
+}
+.lbt{
+	height: 470px;
+	img{
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		display: none;
+	}
+}
+.bannerdown span{
+	height: 44px;
+	line-height: 44px;
+	padding: 0 40px;
+	color: #9B9B9B;
+	img{
+		vertical-align: middle;
+	}
+}
+ol li.active{
+	background: orange;
+}
+ol li{
+	width: 30px;
+	height: 30px;
+	background: #ccc;
+	float: left;
+	margin-right: 5px;
+	border-radius: 50%;
+	text-indent: -99999px;
+	cursor: pointer;
+}

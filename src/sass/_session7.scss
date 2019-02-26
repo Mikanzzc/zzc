@@ -1,0 +1,83 @@
+#seccion_7{
+	background: #f5f5f5; 
+}
+#seccion_7 .biaoti{
+	height: 80px;
+	line-height: 80px;
+	>span{
+		font-size: 20px;
+		text-indent: 3px;
+		font-weight: normal;
+		float: left;
+	}
+}
+#seccion_7  .itemezan{
+	font-size: 13px;
+	color: #FF2C00;
+	line-height: 30px;
+}
+#seccion_7 .itemname{
+	height: 50px;
+	width: 80%;
+	font-size: 13px;
+	line-height: 40px;
+	width: 200px;
+}
+#seccion_7  .itemeprice{
+	font-size: 13px;
+	color: #FF2C00;
+	line-height: 30px;
+}
+#seccion_7 ul:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.s7down{
+	position: relative;
+}
+.s7bottonleft,.s7bottonright{
+	z-index: 9999;
+	position: absolute;
+	top: -30px;
+	height: 24px;
+	width: 36px;
+}
+.s7bottonright{
+	right:72px;
+	background: url(http://www.gjw.com/Content/head/img/leftsj.png);
+}
+.s7bottonleft{
+	right: 36px;
+	background: url(http://www.gjw.com/Content/head/img/rightsj.png);
+}
+.s7lbt{
+	position: relative;
+}
+.s7lbt{
+	height: 327px;
+	overflow: hidden;
+}
+#seccion_7 ul{
+	position: absolute;
+	li{
+		float: left;
+		width: 219px;
+		height: 315px;
+		margin-right: 22px;
+		margin-bottom: 12px;
+		a{
+			background: white;
+			position: absolute;
+			text-align: center;
+			img{
+				width: 190px;
+				height: 190px;
+				margin-left: 13px;
+			}
+		}
+	}
+}

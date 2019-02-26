@@ -1,0 +1,27 @@
+em,i,a,li{
+	list-style: none;
+	text-decoration: none;
+	font-style: none;
+	color: black;
+}
+body{
+	font-size: 14px;
+}
+@mixin abc($value) {
+	#{$value}:after{
+		content:".";
+		clear:both;
+		display:block;
+		height:0;
+		overflow:hidden;
+		visibility:hidden;
+	}
+}
+.clear:after{
+	height: 0;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	content: "";
+	clear: both;
+}

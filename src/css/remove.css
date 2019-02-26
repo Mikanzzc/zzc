@@ -1,0 +1,21 @@
+em, i, a, li {
+  list-style: none;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+}
+
+body {
+  font-size: 14px;
+}
+
+.clear:after {
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  content: "";
+  clear: both;
+}
+
+/*# sourceMappingURL=remove.css.map */

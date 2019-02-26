@@ -1,0 +1,211 @@
+.middle {
+  width: 968px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 12px;
+  background: url(http://order.gjw.com/Order/v1/css/login/images/login_bg.gif);
+}
+
+#header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.logo {
+  height: 90px;
+}
+.logo > a {
+  display: block;
+  height: 53px;
+  width: 199px;
+  float: left;
+  margin-top: 20px;
+}
+
+.logoright {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 28px;
+}
+.logoright .a1 {
+  color: #325e8f;
+  margin-right: 30px;
+}
+.logoright .a2 {
+  margin-right: 30px;
+}
+.logoright .a3 {
+  color: #cf0404;
+  margin-right: 10px;
+}
+
+.content {
+  position: relative;
+  height: 578px;
+  margin-top: 24px;
+  border: 6px solid rgba(199, 199, 199, 0.7);
+  background: white;
+}
+
+.contentmain ul {
+  width: 601px;
+  margin: 33px 42px 0 42px;
+  padding-bottom: 15px;
+}
+.contentmain ul li {
+  display: inline-block;
+  width: 257px;
+  height: 22px;
+}
+.contentmain ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 22px;
+  border-right: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.bottomred {
+  height: 7px;
+  width: 257px;
+  background-image: url(http://order.gjw.com/Order/v1/css/login/images/loginIcon.gif);
+  background-position: 0 53px;
+}
+
+.form {
+  padding-top: 34px;
+  margin: 0 100px;
+}
+
+.telpohone, .yzm, .jjm, .password, .repassword {
+  height: 52px;
+  width: 348px;
+}
+.telpohone label, .yzm label, .jjm label, .password label, .repassword label {
+  height: 73px;
+  width: 52px;
+  margin-left: 18px;
+  font-size: 15px;
+  vertical-align: middle;
+  font-weight: normal;
+}
+.telpohone input, .yzm input, .jjm input, .password input, .repassword input {
+  height: 35px;
+  width: 242px;
+  vertical-align: middle;
+  line-height: 24px;
+  padding-bottom: 2px;
+  text-indent: 20px;
+}
+
+.yzm {
+  position: relative;
+}
+.yzm img {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  height: 43px;
+  width: 72px;
+}
+.yzm a {
+  position: absolute;
+  top: 15px;
+  right: -50px;
+}
+
+.jjm {
+  position: relative;
+}
+.jjm input {
+  width: 144px;
+  height: 31px;
+}
+
+.jjm .hqjjm {
+  position: absolute;
+  margin-left: 12px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #ddd;
+  padding: 0px 8px;
+  float: right;
+  width: 75px;
+  font-size: 12px;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 3px;
+  margin-top: 7px;
+}
+
+.form p {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+}
+.form p a {
+  color: #325e8f;
+}
+
+.form button {
+  display: block;
+  width: 348px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #a8221f;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(#ff6261, #fa413f);
+}
+
+.mainright a {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+}
+
+#footer {
+  margin-top: 10px;
+  font-size: 12px;
+}
+#footer .link1 {
+  text-align: center;
+  line-height: 22px;
+}
+#footer .link1 a {
+  margin: 0 10px;
+}
+#footer .link2 {
+  line-height: 22px;
+  text-align: center;
+}
+
+em, i, a, li {
+  list-style: none;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+}
+
+body {
+  font-size: 14px;
+}
+
+.clear:after {
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  content: "";
+  clear: both;
+}
+
+/*# sourceMappingURL=registor.css.map */

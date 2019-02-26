@@ -1,0 +1,373 @@
+body {
+  font-size: 12px;
+}
+
+.middle {
+  margin: 0 auto;
+  width: 990px;
+}
+
+#top {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #DADADA;
+  background: #F7F7F7;
+  width: 100%;
+}
+#top .topleft {
+  float: left;
+}
+#top .topleft a:nth-of-type(1) {
+  color: #D5182A;
+}
+#top .topright {
+  float: right;
+}
+#top .topright li {
+  float: left;
+  margin-left: 3px;
+  text-align: center;
+}
+#top .topright .a1 {
+  width: 120px;
+}
+#top .topright .a1 a:hover {
+  color: #D5182A;
+}
+#top .topright .a2 {
+  width: 70px;
+}
+#top .topright .a2 a:hover {
+  color: #D5182A;
+}
+#top .topright .a3 {
+  width: 80px;
+}
+#top .topright .a3 a:hover {
+  color: #D5182A;
+}
+#top .topright .a4 {
+  width: 45px;
+}
+#top .topright .a4 a:hover {
+  color: #D5182A;
+}
+#top .topright .a5 {
+  width: 58px;
+}
+#top .topright .a5 a {
+  color: #D5182A;
+}
+#top .topright .a6 {
+  width: 50px;
+}
+#top .topright .a6 a {
+  color: #D5182A;
+}
+
+.maintop {
+  margin-top: 20px;
+}
+.maintop h2 {
+  float: left;
+  color: #666;
+  display: block;
+  height: 23px;
+  margin-top: 17px;
+  overflow: hidden;
+  text-indent: 5px;
+  width: 100px;
+  line-height: 23px;
+  font-size: 23px;
+}
+.maintop div {
+  float: left;
+  display: block;
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 22px;
+}
+.maintop div b {
+  color: #CA0808;
+}
+.maintop a {
+  float: right;
+  display: block;
+  height: 35px;
+  width: 124px;
+  background: url(http://static.gjw.com/order/cart/img/bg_new.gif);
+  background-position: 0 -102px;
+}
+
+#cart_box {
+  border-color: #C90809 #EAEAEA #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  border-style: solid;
+  border-width: 2px 1px 1px;
+  height: auto;
+}
+#cart_box dt {
+  border-bottom: 1px solid #EAEAEA;
+  color: #999;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  text-align: center;
+}
+#cart_box dt .all {
+  width: 113px;
+  text-align: left;
+  display: inline-block;
+}
+#cart_box dt .shangpin {
+  width: 315px;
+  line-height: 18px;
+  display: inline-block;
+}
+#cart_box dt .danjia {
+  width: 80px;
+  display: inline-block;
+}
+#cart_box dt .youhui {
+  width: 86px;
+  display: inline-block;
+}
+#cart_box dt .shuliang {
+  width: 150px;
+  display: inline-block;
+}
+#cart_box dt .xiaoji {
+  width: 70px;
+  display: inline-block;
+}
+#cart_box dt .caozuo {
+  width: 95px;
+  display: inline-block;
+}
+#cart_box dd {
+  display: block;
+  height: auto;
+  padding: 0 11px 5px;
+  vertical-align: middle !important;
+}
+
+.goods {
+  border-bottom: 1px dotted #D3D3D3;
+  text-align: center;
+  font-size: 12px;
+}
+.goods .check {
+  width: 48px;
+  text-align: left;
+}
+.goods .pic {
+  padding: 10px 0;
+  width: 65px;
+}
+.goods .title {
+  width: 315px;
+  text-align: left;
+  line-height: 18px;
+}
+.goods .title a {
+  display: block;
+  margin: 0 auto;
+  color: #06c;
+}
+.goods .title a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+.goods .single {
+  width: 80px;
+}
+.goods .youhui {
+  color: red;
+  width: 86px;
+}
+.goods .zongji {
+  width: 70px;
+}
+.goods .zongji span {
+  color: #CA0809;
+}
+.goods .delcol {
+  width: 95px;
+}
+
+.num {
+  width: 150px;
+}
+.num div {
+  width: 97px;
+  display: block;
+  text-align: center;
+  margin-left: 34px;
+  height: 24px;
+  border-bottom: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA;
+}
+.num div span {
+  display: block;
+  height: 30px;
+  width: 25px;
+  line-height: 26px;
+  font-size: 15px;
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  cursor: pointer;
+}
+.num div .left {
+  float: left;
+}
+.num div .right {
+  float: right;
+}
+.num div input {
+  color: #666;
+  height: 24px;
+  margin: 0 3px;
+  width: 37px;
+  outline: 0;
+  border: none;
+}
+
+#cart_info {
+  background-color: #FFF;
+  border-color: #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  height: auto;
+}
+#cart_info dt {
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #EAEAEA;
+  color: #989898;
+  height: 42px;
+  padding: 0 15px;
+}
+#cart_info dt ul {
+  padding-top: 10px;
+}
+#cart_info dt ul li {
+  color: #989898;
+}
+
+.shanchuxuan:hover, .qingkong:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+#cart_info dd ul {
+  line-height: 24px;
+  padding: 10px 20px 10px 0;
+}
+#cart_info dd ul span {
+  margin-left: 30px;
+  line-height: 30px;
+}
+#cart_info dd ul .quanxuan {
+  margin-left: 10px;
+}
+#cart_info dd ul .quane {
+  margin-left: 555px !important;
+}
+#cart_info dd ul font {
+  color: #CA0809;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.cart_btn {
+  height: 60px;
+  padding-top: 20px;
+}
+.cart_btn a {
+  float: left;
+  display: block;
+  height: 35px;
+  width: 100px;
+  background: url(http://static.gjw.com/order/cart/img/bg_new.gif);
+  background-position: -124px -102px;
+}
+.cart_btn span {
+  margin-top: 10px;
+  float: left;
+  background: url(http://static.gjw.com/order/cart/img/bg_new.gif);
+  background-repeat: no-repeat;
+  background-position: -423px -417px;
+  padding-left: 20px;
+  margin-left: 15px;
+}
+.cart_btn .qujiesuan {
+  height: 35px;
+  width: 124px;
+  float: right;
+  background: url(http://static.gjw.com/order/cart/img/bg_new.gif);
+  background-repeat: no-repeat;
+  background-position: 0 -102px;
+}
+
+.mainbottom dt {
+  background-color: #F8F8F8;
+  border: 1px solid #EAEAEA;
+  height: 38px;
+}
+.mainbottom dt span {
+  color: #999;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  height: 22px;
+  line-height: 22px;
+  margin: 9px 0 0 15px;
+  width: 143px;
+}
+.mainbottom dd {
+  background-color: #FFF;
+  border-color: #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  height: auto;
+  padding: 20px 0;
+}
+
+.mainbottom ul li {
+  float: left;
+  width: 159px;
+  height: 234px;
+  margin-bottom: 5px;
+  line-height: 25px;
+  padding: 19px;
+  text-align: center;
+}
+.mainbottom ul li a {
+  display: block;
+  background: url(http://static.gjw.com/order/cart/img/bg_new.gif);
+  background-position: -262px -209px;
+  height: 29px;
+  width: 102px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.footerbottom p {
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+
+.footerbottomdown {
+  margin-top: 10px;
+  width: 100%;
+  height: 55px;
+  background: url(http://static.gjw.com/product/20161021/img/aut_06.jpg);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+}
+
+/*# sourceMappingURL=cart.css.map */

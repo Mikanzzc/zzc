@@ -1,0 +1,49 @@
+#seccion_1{
+	background: url(http://static.gjw.com/public/img/bj.jpg?id=006);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 650px;
+	width: 100%;
+}
+#seccion_1 ul:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+#seccion_1 ul{
+	position: relative;
+}
+#seccion_1 li{
+	float: left;
+	margin-right: 18px;
+	border: 1px solid #EDEDF1;
+	height: 320px;
+	font-size: 18px;
+	width: 280px;
+	a{
+		width: 280px!important;
+	}
+	div:after{
+		content:".";
+		clear:both;
+		display:block;
+		height:0;
+		overflow:hidden;
+		visibility:hidden;
+	}
+	.title{
+		float: left;
+		height: 56px;
+		width: 150px;
+		line-height: 56px;
+	}
+	.price{
+		float: right;
+		height: 56px;
+		margin-right: 20px;
+		line-height: 56px;
+	}
+}

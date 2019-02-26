@@ -1,0 +1,55 @@
+#seccion_8 {
+	background: #f5f5f5;
+}
+#seccion_8 .biaoti{
+	height: 80px;
+	line-height: 80px;
+	>span{
+		font-size: 20px;
+		text-indent: 3px;
+		font-weight: normal;
+		float: left;
+	}
+}
+.s8list:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.s8list li{
+	float: left;
+	height: 392px;
+	width: 282px;
+	margin-right: 18px;
+	position: relative;
+	a{
+		position: absolute;
+		background: white;
+	}
+}
+.s8listbottom{
+	padding: 15px 28px;
+	font-size: 13px;
+	line-height: 23px;
+	.letter{
+		height: 95px;
+	}
+	.from{
+		display: block;
+		color: #B0B0B0;
+		line-height: 23px;
+	}
+	.title{
+		width: 170px;
+		display: inline-block;
+		vertical-align: middle;
+		border-right: 2px solid #a2a2a2;
+	}
+	.price{
+		line-height: 23px;
+		color: #FF6700;
+	}
+}
