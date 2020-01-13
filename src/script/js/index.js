@@ -64,7 +64,7 @@ define(['config'],function(){
 			$lbtright.click();
 		},5000)
 		
-		function change(){
+		change=()=>{
 			$lbtolli.eq($lbtnum).addClass("active").siblings("li").removeClass("active");
 			$lbtPic.eq($lbtnum).stop(true).animate({opacity:1},800).css('display','block').siblings('img').stop(true).animate({opacity:0},800).css('display','none');
 		}
