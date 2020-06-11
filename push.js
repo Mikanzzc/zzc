@@ -13,6 +13,7 @@ function run_cmd(cmd, args, callback) {
 }
 
 http.createServer(function (req, res) {
+  console.log(123);
   handler(req, res, function (err) {
     res.statusCode = 200
     var data = {"status": 1, "msg": "ok"}
